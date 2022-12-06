@@ -188,7 +188,7 @@ const UploadingDrinksMain = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        userId: state.authentication.authorizedClient[0]._id,
+        //userId: state.authentication.authorizedClient[0]._id,
         uploadedDrink: state.uploadDrinks.drinkUploadSuccess,
         prevDrinksArr: state.uploadDrinks.prevDrinks
     };

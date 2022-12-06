@@ -30,16 +30,16 @@ const App = (props) => {
     }
   }, [ props.loggedUser ])
 
-  if(isAuthenticated){
+  //if(isAuthenticated){
     return (
       <AuthenticatedAppRouter/>
     )
-  }
-  else if(!isAuthenticated) {
-    return (
-      <UnauthenticatedAppRouter/>
-    )
-  }
+  //}
+  // else if(!isAuthenticated) {
+  //   return (
+  //     <UnauthenticatedAppRouter/>
+  //   )
+  // }
 }
 
 const mapStateToProps = (state) => {
